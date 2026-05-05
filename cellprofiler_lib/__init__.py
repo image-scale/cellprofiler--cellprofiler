@@ -37,4 +37,15 @@ from .segmentation import (
     convert_dense_to_labelset,
 )
 
+from .edges import (
+    EdgeDirection,
+    sobel_filter,
+    prewitt_filter,
+    laplacian_of_gaussian,
+    canny_edge_detector,
+    compute_gradient_magnitude,
+    compute_gradient_direction,
+    scharr_filter,
+)
+
 __version__ = "0.1.0"

@@ -5,8 +5,8 @@ Build the image processing library from the ground up, starting with image type 
 
 ## Tasks
 - [x] Task 1: Implement image type validation that validates numpy arrays as 2D/3D images with proper shape and dtype constraints, supporting grayscale, color, binary, and mask image types (types.py + tests/test_types.py)
-- [>] Task 2: Implement segmentation format conversion functions that convert between dense label matrices (6D arrays), sparse label formats (structured arrays), and IJV coordinate lists, enabling flexible representation of object segmentations (segmentation.py + tests/test_segmentation.py)
-- [ ] Task 3: Implement edge enhancement functions including Sobel, Prewitt, Canny, and Laplacian of Gaussian filters that detect edges in grayscale images with optional mask support and direction control (image_processing.py + tests/test_image_processing.py)
+- [x] Task 2: Implement segmentation format conversion functions that convert between dense label matrices (6D arrays), sparse label formats (structured arrays), and IJV coordinate lists, enabling flexible representation of object segmentations (segmentation.py + tests/test_segmentation.py)
+- [>] Task 3: Implement edge enhancement functions including Sobel, Prewitt, Canny, and Laplacian of Gaussian filters that detect edges in grayscale images with optional mask support and direction control (image_processing.py + tests/test_image_processing.py)
 - [ ] Task 4: Implement morphological operations including opening, closing, erosion, dilation, and skeletonization that transform binary and grayscale images using configurable structuring elements (morphology.py + tests/test_morphology.py)
 - [ ] Task 5: Implement color conversion functions that convert between RGB, grayscale, and channel-separated representations, supporting both 3-channel and 4-channel (RGBA) input images (color.py + tests/test_color.py)
 - [ ] Task 6: Implement image overlap measurement functions that compute precision, recall, F-score, Rand index, and confusion matrix statistics when comparing test segmentations to ground truth (measurement.py + tests/test_measurement.py)

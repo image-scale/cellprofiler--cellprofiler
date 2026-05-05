@@ -19,13 +19,26 @@
 ## Task 2: Segmentation Format Conversion
 
 ### Acceptance Criteria
-- [ ] Convert an empty 2D dense label matrix (all zeros) to sparse format, returning an empty sparse array
-- [ ] Convert a 2D dense matrix with non-overlapping labels to sparse format, preserving all label coordinates
-- [ ] Convert a 2D dense matrix with overlapping labels (in label_idx dimension) to sparse format correctly
-- [ ] Convert dense to IJV format (i=row, j=col, v=label value) as a simple coordinate list
-- [ ] Convert IJV format back to dense labels for a 2D image
-- [ ] Extract unique label indices from a dense matrix for each slice of label_idx dimension
-- [ ] Compute area (pixel count) for each label from IJV format
-- [ ] Count the number of unique labels in an IJV array
-- [ ] Downsample labels to smallest integer dtype that can hold all values
-- [ ] Validate dense matrices have correct 6D shape (label_idx, c, t, z, y, x)
+- [x] Convert an empty 2D dense label matrix (all zeros) to sparse format, returning an empty sparse array
+- [x] Convert a 2D dense matrix with non-overlapping labels to sparse format, preserving all label coordinates
+- [x] Convert a 2D dense matrix with overlapping labels (in label_idx dimension) to sparse format correctly
+- [x] Convert dense to IJV format (i=row, j=col, v=label value) as a simple coordinate list
+- [x] Convert IJV format back to dense labels for a 2D image
+- [x] Extract unique label indices from a dense matrix for each slice of label_idx dimension
+- [x] Compute area (pixel count) for each label from IJV format
+- [x] Count the number of unique labels in an IJV array
+- [x] Downsample labels to smallest integer dtype that can hold all values
+- [x] Validate dense matrices have correct 6D shape (label_idx, c, t, z, y, x)
+
+## Task 3: Edge Enhancement Functions
+
+### Acceptance Criteria
+- [ ] Sobel filter detects edges in all directions, returning gradient magnitude image
+- [ ] Sobel filter can be configured to detect only horizontal or only vertical edges
+- [ ] Prewitt filter detects edges similar to Sobel but with different kernel weights
+- [ ] Laplacian of Gaussian (LoG) filter detects edges with configurable sigma for smoothing
+- [ ] Canny edge detector produces binary edge map with automatic threshold selection
+- [ ] Canny edge detector supports manual low/high thresholds
+- [ ] All filters accept optional mask to limit computation to specific regions
+- [ ] Filter outputs have same shape as input images
+- [ ] Filters handle float32 and float64 input images
