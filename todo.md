@@ -4,7 +4,7 @@
 Build the image processing library from the ground up, starting with image type definitions and validation, then implementing segmentation functions for label handling, followed by image processing operations like edge enhancement and morphology. Finally, add measurement functions for image analysis. Each task delivers a complete, testable feature.
 
 ## Tasks
-- [ ] Task 1: Implement image type validation that validates numpy arrays as 2D/3D images with proper shape and dtype constraints, supporting grayscale, color, binary, and mask image types (types.py + tests/test_types.py)
+- [>] Task 1: Implement image type validation that validates numpy arrays as 2D/3D images with proper shape and dtype constraints, supporting grayscale, color, binary, and mask image types (types.py + tests/test_types.py)
 - [ ] Task 2: Implement segmentation format conversion functions that convert between dense label matrices (6D arrays), sparse label formats (structured arrays), and IJV coordinate lists, enabling flexible representation of object segmentations (segmentation.py + tests/test_segmentation.py)
 - [ ] Task 3: Implement edge enhancement functions including Sobel, Prewitt, Canny, and Laplacian of Gaussian filters that detect edges in grayscale images with optional mask support and direction control (image_processing.py + tests/test_image_processing.py)
 - [ ] Task 4: Implement morphological operations including opening, closing, erosion, dilation, and skeletonization that transform binary and grayscale images using configurable structuring elements (morphology.py + tests/test_morphology.py)
