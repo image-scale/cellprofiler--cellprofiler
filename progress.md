@@ -57,3 +57,10 @@
 **Commit**: Add image intensity measurement functions that compute statistics for pixel values within labeled objects
 **Acceptance**: 10/10 criteria met
 **Verification**: tests FAIL on previous state (ModuleNotFoundError), PASS on current state
+
+## Round 9
+**Task**: Task 9 — Implement image transformation functions
+**Files created**: cellprofiler_lib/transforms.py, tests/test_transforms.py
+**Commit**: Add image transformation functions that modify image geometry and dimensions
+**Acceptance**: 9/9 criteria met
+**Verification**: tests FAIL on previous state (ModuleNotFoundError), PASS on current state

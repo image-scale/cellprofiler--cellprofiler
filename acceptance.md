@@ -121,3 +121,16 @@
 - [x] Apply affine transformations using 2x3 or 3x3 transformation matrices
 - [x] All transformations preserve image dtype when possible
 - [x] Support both 2D and 3D images for applicable operations
+
+## Task 10: Pipeline Framework
+
+### Acceptance Criteria
+- [x] Define a Module base class that processing steps must inherit from
+- [x] Each module has a run() method that takes image data and returns processed results
+- [x] Pipeline class accepts a list of modules and executes them in sequence
+- [x] Pipeline passes output of one module as input to the next
+- [x] Pipeline collects measurements from modules that produce them
+- [x] Modules can access shared workspace for inter-module communication
+- [x] Pipeline supports adding/removing modules dynamically
+- [x] Pipeline validates module compatibility before running
+- [x] Provide example modules for common operations (threshold, measure, transform)

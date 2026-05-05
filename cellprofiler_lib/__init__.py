@@ -152,4 +152,19 @@ from .transforms import (
     rescale_intensity,
 )
 
+from .pipeline import (
+    ModuleCategory,
+    Workspace,
+    Module,
+    Pipeline,
+    ThresholdModule,
+    IdentifyObjectsModule,
+    MeasureObjectSizeModule,
+    MeasureIntensityModule,
+    GaussianSmoothModule,
+    RescaleIntensityModule,
+    InvertModule,
+    CropModule,
+)
+
 __version__ = "0.1.0"
