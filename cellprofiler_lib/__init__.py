@@ -16,4 +16,25 @@ from .types import (
     validate_3d_mask,
 )
 
+from .segmentation import (
+    SparseAxis,
+    DenseAxis,
+    validate_dense_matrix,
+    validate_labels,
+    validate_ijv,
+    validate_sparse,
+    indices_from_dense,
+    convert_dense_to_sparse,
+    convert_labels_to_dense,
+    downsample_labels,
+    indices_from_ijv,
+    count_from_ijv,
+    areas_from_ijv,
+    convert_ijv_to_sparse,
+    convert_sparse_to_ijv,
+    convert_labels_to_ijv,
+    convert_ijv_to_labels,
+    convert_dense_to_labelset,
+)
+
 __version__ = "0.1.0"
