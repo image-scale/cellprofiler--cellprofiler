@@ -95,4 +95,24 @@ from .measurement import (
     compute_dice_coefficient,
 )
 
+from .object_measurement import (
+    ObjectMeasurements,
+    measure_object_area,
+    measure_object_perimeter,
+    measure_object_centroid,
+    measure_object_bounding_box,
+    measure_object_eccentricity,
+    measure_object_major_axis_length,
+    measure_object_minor_axis_length,
+    measure_object_orientation,
+    measure_object_solidity,
+    measure_object_extent,
+    measure_object_form_factor,
+    measure_all_object_properties,
+    measure_object_equivalent_diameter,
+    measure_object_euler_number,
+    measure_object_convex_area,
+    measure_object_filled_area,
+)
+
 __version__ = "0.1.0"

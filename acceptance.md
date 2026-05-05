@@ -80,3 +80,17 @@
 - [x] Compute Jaccard index (intersection over union) for each labeled object
 - [x] Handle empty labelings gracefully (no objects in test or ground truth)
 - [x] Support comparison of 2D and 3D label images
+
+## Task 7: Object Size and Shape Measurement Functions
+
+### Acceptance Criteria
+- [x] Compute area (pixel count) for each labeled object
+- [x] Compute perimeter (boundary length) for each labeled object
+- [x] Compute centroid (center of mass) coordinates for each object
+- [x] Compute bounding box (min/max row/col) for each object
+- [x] Compute eccentricity measuring how elongated each object is (0 = circle, 1 = line)
+- [x] Compute form factor (4*pi*area/perimeter^2) measuring circularity
+- [x] Compute major and minor axis lengths from the object's fitted ellipse
+- [x] Compute solidity (area / convex hull area) measuring how convex each object is
+- [x] Return measurements as dictionaries keyed by object label
+- [x] Support both 2D and 3D labeled images

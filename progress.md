@@ -36,3 +36,10 @@
 **Commit**: Add color conversion functions that transform images between different color spaces and channel representations
 **Acceptance**: 8/8 criteria met
 **Verification**: tests FAIL on previous state (ModuleNotFoundError), PASS on current state
+
+## Round 6
+**Task**: Task 6 — Implement image overlap measurement functions
+**Files created**: cellprofiler_lib/measurement.py, tests/test_measurement.py
+**Commit**: Add image overlap measurement functions that compare test segmentations to ground truth and compute quality metrics
+**Acceptance**: 9/9 criteria met
+**Verification**: tests FAIL on previous state (ModuleNotFoundError), PASS on current state
