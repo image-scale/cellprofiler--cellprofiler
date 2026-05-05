@@ -29,3 +29,10 @@
 **Commit**: Add morphological operations that transform binary and grayscale images using structuring elements
 **Acceptance**: 9/9 criteria met
 **Verification**: tests FAIL on previous state (ModuleNotFoundError), PASS on current state
+
+## Round 5
+**Task**: Task 5 — Implement color conversion functions
+**Files created**: cellprofiler_lib/color.py, tests/test_color.py
+**Commit**: Add color conversion functions that transform images between different color spaces and channel representations
+**Acceptance**: 8/8 criteria met
+**Verification**: tests FAIL on previous state (ModuleNotFoundError), PASS on current state

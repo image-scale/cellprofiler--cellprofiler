@@ -59,11 +59,24 @@
 ## Task 5: Color Conversion Functions
 
 ### Acceptance Criteria
-- [ ] Convert RGB image to grayscale using luminance weights
-- [ ] Convert RGBA image to RGB by dropping alpha channel
-- [ ] Convert RGBA image to grayscale
-- [ ] Split RGB image into separate R, G, B channels
-- [ ] Combine separate R, G, B channels into RGB image
-- [ ] Convert grayscale to RGB (replicate channel 3 times)
-- [ ] Stretch/normalize channel intensities to 0-1 range
-- [ ] Handle both float and integer input images
+- [x] Convert RGB image to grayscale using luminance weights
+- [x] Convert RGBA image to RGB by dropping alpha channel
+- [x] Convert RGBA image to grayscale
+- [x] Split RGB image into separate R, G, B channels
+- [x] Combine separate R, G, B channels into RGB image
+- [x] Convert grayscale to RGB (replicate channel 3 times)
+- [x] Stretch/normalize channel intensities to 0-1 range
+- [x] Handle both float and integer input images
+
+## Task 6: Image Overlap Measurement Functions
+
+### Acceptance Criteria
+- [x] Compute true positive, false positive, false negative counts from test vs ground truth labels
+- [x] Compute precision (TP / (TP + FP)) for segmentation quality assessment
+- [x] Compute recall (TP / (TP + FN)) for segmentation completeness
+- [x] Compute F-score (harmonic mean of precision and recall) with configurable beta parameter
+- [x] Compute Rand index measuring agreement between two labelings
+- [x] Compute adjusted Rand index correcting for chance agreement
+- [x] Compute Jaccard index (intersection over union) for each labeled object
+- [x] Handle empty labelings gracefully (no objects in test or ground truth)
+- [x] Support comparison of 2D and 3D label images

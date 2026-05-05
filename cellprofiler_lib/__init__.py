@@ -81,4 +81,18 @@ from .color import (
     to_uint8,
 )
 
+from .measurement import (
+    OverlapStatistics,
+    compute_confusion_counts,
+    compute_precision,
+    compute_recall,
+    compute_f_score,
+    compute_rand_index,
+    compute_adjusted_rand_index,
+    compute_jaccard_index,
+    compute_jaccard_per_object,
+    compute_overlap_statistics,
+    compute_dice_coefficient,
+)
+
 __version__ = "0.1.0"
