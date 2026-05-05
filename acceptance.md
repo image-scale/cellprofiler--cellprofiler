@@ -33,12 +33,25 @@
 ## Task 3: Edge Enhancement Functions
 
 ### Acceptance Criteria
-- [ ] Sobel filter detects edges in all directions, returning gradient magnitude image
-- [ ] Sobel filter can be configured to detect only horizontal or only vertical edges
-- [ ] Prewitt filter detects edges similar to Sobel but with different kernel weights
-- [ ] Laplacian of Gaussian (LoG) filter detects edges with configurable sigma for smoothing
-- [ ] Canny edge detector produces binary edge map with automatic threshold selection
-- [ ] Canny edge detector supports manual low/high thresholds
-- [ ] All filters accept optional mask to limit computation to specific regions
-- [ ] Filter outputs have same shape as input images
-- [ ] Filters handle float32 and float64 input images
+- [x] Sobel filter detects edges in all directions, returning gradient magnitude image
+- [x] Sobel filter can be configured to detect only horizontal or only vertical edges
+- [x] Prewitt filter detects edges similar to Sobel but with different kernel weights
+- [x] Laplacian of Gaussian (LoG) filter detects edges with configurable sigma for smoothing
+- [x] Canny edge detector produces binary edge map with automatic threshold selection
+- [x] Canny edge detector supports manual low/high thresholds
+- [x] All filters accept optional mask to limit computation to specific regions
+- [x] Filter outputs have same shape as input images
+- [x] Filters handle float32 and float64 input images
+
+## Task 4: Morphological Operations
+
+### Acceptance Criteria
+- [ ] Erosion shrinks bright regions / expands dark regions using a structuring element
+- [ ] Dilation expands bright regions / shrinks dark regions using a structuring element
+- [ ] Opening (erosion then dilation) removes small bright spots and smooths object boundaries
+- [ ] Closing (dilation then erosion) fills small holes and connects nearby objects
+- [ ] Skeletonization reduces binary objects to single-pixel-wide representations
+- [ ] Morphological gradient computes difference between dilation and erosion
+- [ ] All operations support disk, square, and diamond structuring element shapes
+- [ ] Operations work on both 2D and 3D images with appropriate structuring elements
+- [ ] Structuring element size is configurable

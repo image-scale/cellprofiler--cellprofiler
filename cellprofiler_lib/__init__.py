@@ -48,4 +48,20 @@ from .edges import (
     scharr_filter,
 )
 
+from .morphology import (
+    StructuringElementShape,
+    create_structuring_element,
+    erode,
+    dilate,
+    opening,
+    closing,
+    skeletonize,
+    morphological_gradient,
+    white_tophat,
+    black_tophat,
+    fill_holes,
+    remove_small_objects,
+    remove_small_holes,
+)
+
 __version__ = "0.1.0"
