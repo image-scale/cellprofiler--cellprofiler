@@ -64,4 +64,21 @@ from .morphology import (
     remove_small_holes,
 )
 
+from .color import (
+    rgb_to_grayscale,
+    rgba_to_rgb,
+    rgba_to_grayscale,
+    split_channels,
+    combine_channels,
+    grayscale_to_rgb,
+    normalize_intensity,
+    stretch_intensity,
+    invert_image,
+    adjust_gamma,
+    extract_channel,
+    replace_channel,
+    to_float,
+    to_uint8,
+)
+
 __version__ = "0.1.0"

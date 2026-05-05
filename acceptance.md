@@ -46,12 +46,24 @@
 ## Task 4: Morphological Operations
 
 ### Acceptance Criteria
-- [ ] Erosion shrinks bright regions / expands dark regions using a structuring element
-- [ ] Dilation expands bright regions / shrinks dark regions using a structuring element
-- [ ] Opening (erosion then dilation) removes small bright spots and smooths object boundaries
-- [ ] Closing (dilation then erosion) fills small holes and connects nearby objects
-- [ ] Skeletonization reduces binary objects to single-pixel-wide representations
-- [ ] Morphological gradient computes difference between dilation and erosion
-- [ ] All operations support disk, square, and diamond structuring element shapes
-- [ ] Operations work on both 2D and 3D images with appropriate structuring elements
-- [ ] Structuring element size is configurable
+- [x] Erosion shrinks bright regions / expands dark regions using a structuring element
+- [x] Dilation expands bright regions / shrinks dark regions using a structuring element
+- [x] Opening (erosion then dilation) removes small bright spots and smooths object boundaries
+- [x] Closing (dilation then erosion) fills small holes and connects nearby objects
+- [x] Skeletonization reduces binary objects to single-pixel-wide representations
+- [x] Morphological gradient computes difference between dilation and erosion
+- [x] All operations support disk, square, and diamond structuring element shapes
+- [x] Operations work on both 2D and 3D images with appropriate structuring elements
+- [x] Structuring element size is configurable
+
+## Task 5: Color Conversion Functions
+
+### Acceptance Criteria
+- [ ] Convert RGB image to grayscale using luminance weights
+- [ ] Convert RGBA image to RGB by dropping alpha channel
+- [ ] Convert RGBA image to grayscale
+- [ ] Split RGB image into separate R, G, B channels
+- [ ] Combine separate R, G, B channels into RGB image
+- [ ] Convert grayscale to RGB (replicate channel 3 times)
+- [ ] Stretch/normalize channel intensities to 0-1 range
+- [ ] Handle both float and integer input images

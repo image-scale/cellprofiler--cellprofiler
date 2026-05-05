@@ -22,3 +22,10 @@
 **Commit**: Add edge detection filters that identify boundaries and edges in grayscale images
 **Acceptance**: 9/9 criteria met
 **Verification**: tests FAIL on previous state (ModuleNotFoundError), PASS on current state
+
+## Round 4
+**Task**: Task 4 — Implement morphological operations
+**Files created**: cellprofiler_lib/morphology.py, tests/test_morphology.py
+**Commit**: Add morphological operations that transform binary and grayscale images using structuring elements
+**Acceptance**: 9/9 criteria met
+**Verification**: tests FAIL on previous state (ModuleNotFoundError), PASS on current state
