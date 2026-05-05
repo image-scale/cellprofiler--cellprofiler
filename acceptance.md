@@ -94,3 +94,17 @@
 - [x] Compute solidity (area / convex hull area) measuring how convex each object is
 - [x] Return measurements as dictionaries keyed by object label
 - [x] Support both 2D and 3D labeled images
+
+## Task 8: Image Intensity Measurement Functions
+
+### Acceptance Criteria
+- [x] Compute minimum intensity within each labeled object
+- [x] Compute maximum intensity within each labeled object
+- [x] Compute mean intensity within each labeled object
+- [x] Compute median intensity within each labeled object
+- [x] Compute standard deviation of intensity within each labeled object
+- [x] Compute specified percentiles (e.g., 25th, 75th) within each labeled object
+- [x] Compute integrated intensity (sum of all pixel values) for each object
+- [x] Handle multiple grayscale images (channels) when measuring intensity
+- [x] Return measurements as dictionaries keyed by object label
+- [x] Support both 2D and 3D labeled images with 2D/3D intensity images

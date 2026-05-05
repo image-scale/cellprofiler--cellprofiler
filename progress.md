@@ -43,3 +43,10 @@
 **Commit**: Add image overlap measurement functions that compare test segmentations to ground truth and compute quality metrics
 **Acceptance**: 9/9 criteria met
 **Verification**: tests FAIL on previous state (ModuleNotFoundError), PASS on current state
+
+## Round 7
+**Task**: Task 7 — Implement object size and shape measurement functions
+**Files created**: cellprofiler_lib/object_measurement.py, tests/test_object_measurement.py
+**Commit**: Add object size and shape measurement functions that compute geometric properties of labeled objects
+**Acceptance**: 10/10 criteria met
+**Verification**: tests FAIL on previous state (ModuleNotFoundError), PASS on current state

@@ -115,4 +115,22 @@ from .object_measurement import (
     measure_object_filled_area,
 )
 
+from .intensity_measurement import (
+    IntensityMeasurements,
+    measure_intensity_min,
+    measure_intensity_max,
+    measure_intensity_mean,
+    measure_intensity_median,
+    measure_intensity_std,
+    measure_intensity_percentile,
+    measure_intensity_percentiles,
+    measure_integrated_intensity,
+    measure_intensity_mad,
+    measure_all_intensity_properties,
+    measure_intensity_in_channels,
+    measure_intensity_ratio,
+    measure_intensity_at_edge,
+    measure_intensity_at_center,
+)
+
 __version__ = "0.1.0"
