@@ -108,3 +108,16 @@
 - [x] Handle multiple grayscale images (channels) when measuring intensity
 - [x] Return measurements as dictionaries keyed by object label
 - [x] Support both 2D and 3D labeled images with 2D/3D intensity images
+
+## Task 9: Image Transformation Functions
+
+### Acceptance Criteria
+- [x] Resize images to specified dimensions with configurable interpolation (nearest, bilinear, bicubic)
+- [x] Crop images to specified rectangular regions using pixel coordinates
+- [x] Flip images horizontally (left-right) and vertically (up-down)
+- [x] Rotate images by specified angle with configurable center point
+- [x] Pad images with specified values or reflection to increase dimensions
+- [x] Translate/shift images by pixel offset with configurable fill value
+- [x] Apply affine transformations using 2x3 or 3x3 transformation matrices
+- [x] All transformations preserve image dtype when possible
+- [x] Support both 2D and 3D images for applicable operations

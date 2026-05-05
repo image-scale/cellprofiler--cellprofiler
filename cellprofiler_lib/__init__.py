@@ -133,4 +133,23 @@ from .intensity_measurement import (
     measure_intensity_at_center,
 )
 
+from .transforms import (
+    InterpolationOrder,
+    PaddingMode,
+    resize,
+    crop,
+    crop_center,
+    flip_horizontal,
+    flip_vertical,
+    flip_depth,
+    rotate,
+    rotate_90,
+    pad,
+    translate,
+    affine_transform,
+    scale,
+    transpose,
+    rescale_intensity,
+)
+
 __version__ = "0.1.0"

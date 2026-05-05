@@ -50,3 +50,10 @@
 **Commit**: Add object size and shape measurement functions that compute geometric properties of labeled objects
 **Acceptance**: 10/10 criteria met
 **Verification**: tests FAIL on previous state (ModuleNotFoundError), PASS on current state
+
+## Round 8
+**Task**: Task 8 — Implement image intensity measurement functions
+**Files created**: cellprofiler_lib/intensity_measurement.py, tests/test_intensity_measurement.py
+**Commit**: Add image intensity measurement functions that compute statistics for pixel values within labeled objects
+**Acceptance**: 10/10 criteria met
+**Verification**: tests FAIL on previous state (ModuleNotFoundError), PASS on current state
